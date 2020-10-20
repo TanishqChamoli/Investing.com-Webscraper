@@ -19,7 +19,7 @@ live data from the website as well.
 2. para_scrcape.py -> Now coming to the main part when we will go to the /new/[id]
 In this we are supposed to give out the id of the currency we want to display on our page.
 
-3.web.py -> this contains the flask program which is needed to make this as an api call rather than giving an terminal output.
+3. web.py -> this contains the flask program which is needed to make this as an api call rather than giving an terminal output.
 
 ## Logic behinde the working of the program:
 The site loads dynamically and makes use of the request to this page 

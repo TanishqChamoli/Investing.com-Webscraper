@@ -23,9 +23,10 @@ In this we are supposed to give out the id of the currency we want to display on
 
 ## Logic behinde the working of the program:
 The site loads dynamically and makes use of the request to this page 
-/currencies/Service/ChangeCurrency?session_uniq_id=[value]&currencies=[currency_id]
-which return the data and then the data is inserted on the 
-investing.com/currencies/single-currency-crosses page.
+
+    /currencies/Service/ChangeCurrency?session_uniq_id=[value]&currencies=[currency_id]
+
+which return the data and then the data is inserted on the investing.com/currencies/single-currency-crosses page.
 The request which is being made is
 
 ![alt text](https://github.com/TanishqChamoli/Investing.com-Webscraper/blob/main/Images/Request.jpg)

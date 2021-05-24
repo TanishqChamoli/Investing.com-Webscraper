@@ -6,7 +6,9 @@ from pymongo import MongoClient
 from multiprocessing.dummy import Pool as ThreadPool
 import time
 
-client = pymongo.MongoClient("mongodb+srv://tanishq:tanishq@live-stock.nyuyi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+# put youre connection link of the mongo database
+m_link = ""
+client = pymongo.MongoClient(m_link)
 db = client['currency']
 collection = db['currency']
 

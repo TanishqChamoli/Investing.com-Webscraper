@@ -2,7 +2,8 @@
 This is a web scraper for investing.com/currencies/single-currency-crosses on the site investing.com
 
 ## NOTE:
-    INSERT THE ID PARAMETER IN BOTH THE FILES BY FINDING YOU'RE PHP UNIQUE SESSION ID
+    INSERT THE ID PARAMETER IN BOTH THE FILES BY FINDING YOU'RE PHP UNIQUE SESSION ID IN functions.opy
+    ALSO CREATE YOU'RE MONGO DB AND CONNECT IT IN functions.py
 
 In this we are going to start a web server using flask and with this we are able to use the server on our local host and use this program as an API and make these calls to get the input from the user if required.
 
@@ -11,7 +12,7 @@ In this we are going to start a web server using flask and with this we are able
     2.web.py
     3.always.py
 
-1. function.py -> This has all the functions for both the insertion and the searching of the data files, thus this is the major code file of our program. I've implemented the data for a certain number of currencies which i needed and then am making the updates for those currencies only.I've implemented multi threading as well to reduces the time for the scrapping.
+1. functions.py -> This has all the functions for both the insertion and the searching of the data files, thus this is the major code file of our program. I've implemented the data for a certain number of currencies which i needed and then am making the updates for those currencies only.I've implemented multi threading as well to reduces the time for the scrapping.
 
 
 2. web.py -> Now coming to the main part when we will go to the /[id] and this is the file which sets up the server for the user and then helps them access the whole data

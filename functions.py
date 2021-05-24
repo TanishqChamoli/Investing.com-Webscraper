@@ -26,7 +26,7 @@ def fun(currency):
             "X-Requested-With": "XMLHttpRequest",
         }
         r = requests.get(
-            "http://www.investing.com/currencies/Service/ChangeCurrency?session_uniq_id=517835a788eaf5bcc68a0a165cc24f82&currencies="+currency, headers=headers).text
+            "http://www.investing.com/currencies/Service/ChangeCurrency?session_uniq_id=[session-id]="+currency, headers=headers).text
         info = soup(r, 'lxml')
         li = info.find('script')
         for i in li:

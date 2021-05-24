@@ -2,7 +2,7 @@
 This is a web scraper for investing.com/currencies/single-currency-crosses on the site investing.com
 
 ## NOTE:
-    INSERT THE ID PARAMETER IN BOTH THE FILES BY FINDING YOU'RE PHP UNIQUE SESSION ID IN functions.opy
+    INSERT THE ID PARAMETER IN BOTH THE FILES BY FINDING YOU'RE PHP UNIQUE SESSION ID IN functions.py
     ALSO CREATE YOU'RE MONGO DB AND CONNECT IT IN functions.py
 
 In this we are going to start a web server using flask and with this we are able to use the server on our local host and use this program as an API and make these calls to get the input from the user if required.
